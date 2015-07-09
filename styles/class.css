@@ -1,0 +1,11 @@
+navbar-link {
+    color: rgb(233,50,117);
+    /*hover:(font-weight:bold);*/
+   
+ }
+
+ .links-container:hover {
+      background-color:white;
+ }
+ 
+ 
