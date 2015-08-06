@@ -8,8 +8,13 @@ for (i = 0; i < cars.length; i++) {
 var animatePoints = function() {
     var revealPoints = function(index) {
 
- 
-                for (var i = 0; i < points.length; i++) {
+
+    for (var i = 0; i < points.length; i++) {
         revealPoints(i);
-                    
-             };
+
+        };
+
+window.onload = function() {
+        window.addEventListener('scroll', function(event) {
+             console.log(event);
+         });
